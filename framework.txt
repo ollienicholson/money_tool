@@ -1,0 +1,30 @@
+=== Ollie 17.2.2023: This doc dictates the general framework of the tool ===
+
+Architecture:
+
+model <-> state 
+
+controller -> high level functions for controlling low-level functions
+
+view -> GUI
+
+
+Start with the basics and build upon this framework
+
+View:
+
+  Tabs:
+  1. Basic Budget BB
+      Input cells
+      Output cells
+  2. Forecasting F
+      Pulls input from BB
+      Add additional data
+  3. Graphs G
+      Pulls data from BB and F
+  4. Export data
+      Export BB, F, G as .xlsx, .csv (and then maybe googleSheets and/or .numbers)
+      
+Extra for experts:
+Can we make this into an app using Flask?
+  
