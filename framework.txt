@@ -27,4 +27,8 @@ View:
       
 Extra for experts:
 Can we make this into an app using Flask?
+
+
+Additional ideas:
+Can we make a tool which automates boring essay/report formatting such as page numbers, contents page, footers etc and export to .word?
   
